@@ -83,6 +83,10 @@ body {
     margin-bottom: 10px;
 }
 
+.productos form button:hover {
+    color: white;
+}
+
 /* Para esconder flechas del input type number en Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
