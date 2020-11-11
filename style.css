@@ -1,0 +1,162 @@
+/* Estilos generales del proyecto */
+
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del contenedor principal */
+.home {
+    margin: 40px 150px;
+}
+
+/* Estilos del contenedor de PVC */
+.pvc {
+    margin-bottom: 100px;
+}
+
+.pvc img {
+    width: 80%;
+}
+
+/* Estilos del banner amarillo */
+.banner-amarillo {
+    background-color: #f8e200;
+    padding: 5px 55px 10px 55px;
+    width: fit-content;
+    font-size: 17px;
+}
+
+.banner-amarillo span {
+    font-weight: bold;
+}
+
+/* Estilos de sección productos */
+.productos {
+    margin-top: 20px;
+}
+
+.productos p {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+.productos img {
+    width: 90%;
+}
+
+.productos .form-group {
+    font-size: 11px;
+    color: #9e9d9d;
+    position: relative;
+    max-width: 100px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+}
+
+.productos form {
+    text-align: center;
+}
+
+.productos form input {
+    text-align: right;
+    width: 60px;
+    border: none;
+}
+
+.productos form button {
+    font-size: 10px;
+    width: 130px;
+    line-height: 1.2;
+    padding: 0px;
+    border-radius: 2px;
+    background: #ef3030;
+    color: #fff;
+    margin-top: 8px;
+    border-bottom: 1.5px solid #c50909;
+    margin-bottom: 10px;
+}
+
+/* Para esconder flechas del input type number en Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para esconder flechas del input type number en Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Estilos de hover de las fichas de producto */
+.contenedor-cantidad {
+    display: none;
+}
+
+.ficha-producto:hover .contenedor-cantidad {
+    display: block;
+}
+
+.ficha-producto:hover {
+    border: 1px solid #c5c5c5;
+}
+
+.ficha-producto {
+    padding-top: 10px;
+}
+
+/* Estilos del carrousel */
+.carousel {
+    height: 260px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 2% !important;
+}
+
+.carousel-control-prev {
+    left: -30px;
+}
+
+.carousel-control-next {
+    right: -30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Estilos de la etiqueta de "producto destacado" */
+.destacado {
+    background: #74b816;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.borde-derecho {
+    border: 10px solid #5c940d;
+    position: absolute;
+    right: 49px;
+    border-right: 4px solid transparent;
+    border-left-width: 6px;
+    top: 13px;
+}
+
+.borde-izquierdo {
+    border: 10px solid #5c940d;
+    position: absolute;
+    left: 49px;
+    border-left: 4px solid transparent;
+    border-right-width: 6px;
+    top: 13px;
+}
